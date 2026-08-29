@@ -1,0 +1,43 @@
+{
+  "title": "Choose the TAHANIVO homepage composition",
+  "question": "The Living Alcove identity is fixed. Choose the composition that should become the website north star.",
+  "options": [
+    {
+      "id": "spatial-alcove",
+      "label": "Spatial Alcove",
+      "kicker": "ORIGINAL CONCEPT",
+      "lineage": "active negative space and asymmetric object staging",
+      "thesis": "The furniture sits inside a quiet spatial composition with the interface nearly disappearing.",
+      "palette": ["#E7E2D6", "#6E665B", "#234A83", "#2A2F28"],
+      "materials": ["pale plaster", "weathered timber", "dark bronze"],
+      "viewport": "One chair sits low and off-center while the headline occupies the open plaster field.",
+      "risk": "The strongest atmosphere, but commerce controls require careful placement during implementation.",
+      "hero": ".impeccable/mocks/living-alcove/option-a-spatial-alcove.png"
+    },
+    {
+      "id": "threshold-gallery",
+      "label": "Threshold Gallery",
+      "kicker": "COMMERCE FORWARD",
+      "lineage": "architectural threshold with a dedicated information rail",
+      "thesis": "A clear shopping rail balances the quiet room without covering the product imagery.",
+      "palette": ["#E7E2D6", "#6E665B", "#234A83", "#2A2F28"],
+      "materials": ["plaster portal", "timber grain", "bronze detail"],
+      "viewport": "The chair fills a plaster opening while purchase and quote actions sit in a calm left rail.",
+      "risk": "The information rail is highly usable, but slightly less distinctive than the original composition.",
+      "hero": ".impeccable/mocks/living-alcove/option-b-threshold-gallery.png"
+    },
+    {
+      "id": "quiet-catalog",
+      "label": "Quiet Catalog",
+      "kicker": "PRODUCT FORWARD",
+      "lineage": "monumental product crop and disciplined catalog continuation",
+      "thesis": "Product detail leads immediately, with the collection visibly continuing below the fold.",
+      "palette": ["#E7E2D6", "#6E665B", "#234A83", "#2A2F28"],
+      "materials": ["woven upholstery", "dark timber", "pale plaster"],
+      "viewport": "A close chair crop owns seven columns, actions occupy the quiet right field, and the next collection peeks below.",
+      "risk": "It is the clearest storefront, but the large crop reduces the alcove's signature emptiness.",
+      "hero": ".impeccable/mocks/living-alcove/option-c-quiet-catalog.png"
+    }
+  ],
+  "steer": true
+}

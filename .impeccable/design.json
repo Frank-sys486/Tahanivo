@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-28T14:55:27Z",
+  "title": "Design System: TAHANIVO",
+  "extensions": {
+    "colorMeta": {
+      "plaster": {
+        "role": "neutral",
+        "displayName": "Pale Plaster",
+        "canonical": "#eeece6",
+        "tonalRamp": ["oklch(15% 0.02 85)", "oklch(26% 0.02 85)", "oklch(38% 0.02 85)", "oklch(50% 0.02 85)", "oklch(63% 0.02 85)", "oklch(75% 0.02 85)", "oklch(86% 0.02 85)", "oklch(95% 0.02 85)"]
+      },
+      "plaster-light": {
+        "role": "neutral",
+        "displayName": "Light Plaster",
+        "canonical": "#f8f7f3",
+        "tonalRamp": ["oklch(15% 0.01 85)", "oklch(26% 0.01 85)", "oklch(38% 0.01 85)", "oklch(50% 0.01 85)", "oklch(63% 0.01 85)", "oklch(75% 0.01 85)", "oklch(86% 0.01 85)", "oklch(95% 0.01 85)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal-Green Ink",
+        "canonical": "#2a2f28",
+        "tonalRamp": ["oklch(15% 0.02 140)", "oklch(26% 0.02 140)", "oklch(38% 0.02 140)", "oklch(50% 0.02 140)", "oklch(63% 0.02 140)", "oklch(75% 0.02 140)", "oklch(86% 0.02 140)", "oklch(95% 0.02 140)"]
+      },
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Restrained Cobalt",
+        "canonical": "#234a83",
+        "tonalRamp": ["oklch(15% 0.09 255)", "oklch(26% 0.09 255)", "oklch(38% 0.09 255)", "oklch(50% 0.09 255)", "oklch(63% 0.09 255)", "oklch(75% 0.09 255)", "oklch(86% 0.09 255)", "oklch(95% 0.09 255)"]
+      },
+      "cobalt-deep": {
+        "role": "primary",
+        "displayName": "Deep Cobalt",
+        "canonical": "#193b6b",
+        "tonalRamp": ["oklch(15% 0.085 255)", "oklch(26% 0.085 255)", "oklch(38% 0.085 255)", "oklch(50% 0.085 255)", "oklch(63% 0.085 255)", "oklch(75% 0.085 255)", "oklch(86% 0.085 255)", "oklch(95% 0.085 255)"]
+      },
+      "focus-on-dark": {
+        "role": "secondary",
+        "displayName": "Dark-Surface Focus",
+        "canonical": "#c7d7ef",
+        "tonalRamp": ["oklch(15% 0.035 255)", "oklch(26% 0.035 255)", "oklch(38% 0.035 255)", "oklch(50% 0.035 255)", "oklch(63% 0.035 255)", "oklch(75% 0.035 255)", "oklch(86% 0.035 255)", "oklch(95% 0.035 255)"]
+      },
+      "image-placeholder": {
+        "role": "neutral",
+        "displayName": "Image Placeholder",
+        "canonical": "#d6d0c5",
+        "tonalRamp": ["oklch(15% 0.015 80)", "oklch(26% 0.015 80)", "oklch(38% 0.015 80)", "oklch(50% 0.015 80)", "oklch(63% 0.015 80)", "oklch(75% 0.015 80)", "oklch(86% 0.015 80)", "oklch(95% 0.015 80)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline Ink",
+        "canonical": "rgb(42 47 40 / 20%)",
+        "tonalRamp": ["oklch(15% 0.02 140)", "oklch(26% 0.02 140)", "oklch(38% 0.02 140)", "oklch(50% 0.02 140)", "oklch(63% 0.02 140)", "oklch(75% 0.02 140)", "oklch(86% 0.02 140)", "oklch(95% 0.02 140)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Monumental hero statements with quiet weight and balanced wrapping." },
+      "headline": { "displayName": "Headline", "purpose": "Major section statements sharing the display rhythm." },
+      "title": { "displayName": "Title", "purpose": "Collection item names aligned opposite compact category labels." },
+      "body": { "displayName": "Body", "purpose": "Sparse supporting copy and form status messages." },
+      "label": { "displayName": "Label", "purpose": "Uppercase form labels, controls, and compact actions." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "All state, navigation, and reveal transitions." },
+      { "name": "quick", "value": "140ms", "purpose": "Button, icon, and direct state feedback." },
+      { "name": "standard", "value": "420ms", "purpose": "Navigation underlines and mobile-menu transitions." },
+      { "name": "slow", "value": "680ms", "purpose": "Image reveals, settling, and collection image crops." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Effectively removes animation and transitions when reduced motion is preferred." }
+    ],
+    "breakpoints": [
+      { "name": "navigation-collapse", "value": "980px" },
+      { "name": "single-column", "value": "720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single cobalt action used in the hero and quote form.",
+      "html": "<button class=\"ds-button ds-button-primary\">VIEW COLLECTION</button>",
+      "css": ".ds-button { min-height: 54px; padding: 0 25px; border: 1px solid #234a83; border-radius: 2px; font: 680 0.78rem/1.2 'Hanken Grotesk Variable', sans-serif; letter-spacing: 0.08em; cursor: pointer; transition: color 140ms cubic-bezier(0.4,0,0.2,1), background 140ms cubic-bezier(0.4,0,0.2,1), transform 140ms cubic-bezier(0.4,0,0.2,1); } .ds-button-primary { color: #f8f7f3; background: #234a83; } .ds-button-primary:hover { background: #193b6b; transform: translateY(-1px); } .ds-button-primary:active { transform: translateY(1px); } .ds-button-primary:focus-visible { outline: 3px solid #234a83; outline-offset: 4px; }"
+    },
+    {
+      "name": "Quote Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A square, underlined field integrated into the plaster surface.",
+      "html": "<label class=\"ds-field\">EMAIL<input type=\"email\" autocomplete=\"email\" required></label>",
+      "css": ".ds-field { display: grid; gap: 9px; color: #2a2f28; font: 650 0.78rem/1.2 'Hanken Grotesk Variable', sans-serif; letter-spacing: 0.06em; } .ds-field input { width: 100%; min-height: 48px; padding: 12px 0; color: #2a2f28; background: transparent; border: 0; border-bottom: 1px solid #2a2f28; border-radius: 0; font: 400 1rem/1.7 'Hanken Grotesk Variable', sans-serif; } .ds-field input:focus-visible { outline: 3px solid #234a83; outline-offset: 4px; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Compact uppercase navigation with a slow cobalt underline reveal.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#\">COLLECTION</a><a href=\"#\">CRAFT</a><a href=\"#\">QUOTE</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 40px; } .ds-nav a { position: relative; padding: 14px 0; color: #2a2f28; text-decoration: none; font: 630 0.75rem/1.2 'Hanken Grotesk Variable', sans-serif; letter-spacing: 0.09em; } .ds-nav a::after { content: ''; position: absolute; left: 0; right: 100%; bottom: 7px; height: 1px; background: #234a83; transition: right 420ms cubic-bezier(0.4,0,0.2,1); } .ds-nav a:hover::after { right: 0; } .ds-nav a:focus-visible { outline: 3px solid #234a83; outline-offset: 4px; }"
+    },
+    {
+      "name": "Collection Item",
+      "kind": "card",
+      "description": "A flat editorial product figure reduced to category and name.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-image\"></div><div class=\"ds-card-copy\"><p>SEATING</p><h3>Lounge chair</h3></div></article>",
+      "css": ".ds-card { width: min(100%, 560px); color: #2a2f28; font-family: 'Hanken Grotesk Variable', sans-serif; } .ds-card-image { aspect-ratio: 4 / 3; overflow: hidden; background: #d6d0c5; } .ds-card-copy { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding: 20px 0 64px; } .ds-card-copy p, .ds-card-copy h3 { margin: 0; } .ds-card-copy p { color: #234a83; font-size: 0.74rem; font-weight: 680; letter-spacing: 0.08em; } .ds-card-copy h3 { font-size: 1.55rem; font-weight: 520; }"
+    },
+    {
+      "name": "Brand Lockup",
+      "kind": "custom",
+      "description": "The open-center three-stroke mark paired with the tracked TAHANIVO wordmark.",
+      "html": "<a class=\"ds-brand\" href=\"#\" aria-label=\"TAHANIVO home\"><svg viewBox=\"0 0 96 96\" aria-hidden=\"true\"><g fill=\"currentColor\"><path d=\"M27 16h42l-7 12H34z\"/><path d=\"M27 16h42l-7 12H34z\" transform=\"rotate(120 48 48)\"/><path d=\"M27 16h42l-7 12H34z\" transform=\"rotate(240 48 48)\"/></g></svg><span>TAHANIVO</span></a>",
+      "css": ".ds-brand { display: inline-flex; align-items: center; gap: 12px; width: fit-content; color: #2a2f28; text-decoration: none; font: 620 1.05rem/1.2 'Hanken Grotesk Variable', sans-serif; letter-spacing: 0.22em; } .ds-brand svg { width: 34px; height: 34px; } .ds-brand:focus-visible { outline: 3px solid #234a83; outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Catalog",
+    "overview": "TAHANIVO treats furniture as an object to be examined, not merchandise to be crowded by interface chrome. A monumental close crop, broad plaster fields, weathered timber, and disciplined whitespace create a calm editorial storefront with enough product substance to support online evaluation.\n\nThe system is luxurious through distillation: one sans-serif family, two pale neutrals, fine rules, flat controls, and a single cobalt action voice. The path is deliberately narrow—view the collection, understand the craft, request a quote—and whitespace replaces explanatory copy wherever the images and headings can carry meaning. The current catalog and imagery establish direction rather than final product truth; pricing, payment, fulfillment, and remote quote submission remain intentionally unconnected.",
+    "keyCharacteristics": [
+      "Monumental furniture imagery balanced by open plaster space.",
+      "Flat, square-edged controls and containers divided by hairline rules.",
+      "Charcoal-green typography with cobalt reserved for actions and orientation.",
+      "Modern variable sans typography with quiet scale, terse copy, and compact uppercase labels.",
+      "Controlled motion: quick feedback, slow image settling, and no bounce.",
+      "A three-stroke open-center mark paired with a widely tracked wordmark."
+    ],
+    "rules": [
+      { "name": "The One Cobalt Voice Rule", "body": "Use cobalt for action, focus, and small orientation cues; do not turn it into a broad decorative field.", "section": "colors" },
+      { "name": "The Material Neutral Rule", "body": "Surfaces should feel like plaster, timber, upholstery, and bronze rather than pure white, pure black, or cool gray.", "section": "colors" },
+      { "name": "The One-Family Rule", "body": "Create hierarchy with Hanken Grotesk's variable weight, scale, case, and tracking; do not introduce a display serif or decorative face.", "section": "typography" },
+      { "name": "The Quiet Scale Rule", "body": "Large headings stay medium-light, tightly tracked, and nearly solid-set; never compensate for scale with heavy weight.", "section": "typography" },
+      { "name": "The Presence Before Density Rule", "body": "Preserve furniture scale and open ground as columns collapse; do not solve mobile by shrinking the product into a thumbnail or compressing section rhythm.", "section": "layout" },
+      { "name": "The No Floating Chrome Rule", "body": "Cards and controls sit directly on the page; use crop, tone, and fine rules instead of shadows or raised containers.", "section": "elevation" },
+      { "name": "The Open-Center Mark Rule", "body": "Use the supplied two-dimensional three-stroke asset without redrawing it as a letterform, monogram, filled badge, or ornamental seal.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do let one substantial furniture crop command the opening composition.",
+      "Do use restrained cobalt for actions, keyboard focus, status, and small orientation cues.",
+      "Do preserve the 44px minimum menu target, semantic landmarks, visible focus, descriptive product alt text, and reduced-motion behavior.",
+      "Do preserve the distilled path from collection to craft to quote.",
+      "Do label provisional catalog content and local-only quote behavior honestly until backend services exist.",
+      "Do use the supplied three-stroke mark and maintain its open center."
+    ],
+    "donts": [
+      "Don't add rounded card chrome, pills, gradients, heavy shadows, glass panels, or decorative borders.",
+      "Don't introduce a serif or ornamental display face; hierarchy belongs to Hanken Grotesk's scale and variable weight.",
+      "Don't fabricate products, prices, availability, customer claims, fulfillment promises, article publication, or successful remote quote submission.",
+      "Don't imply a physical showroom or invite visitors to see products in person.",
+      "Don't restore journal, search, account, bag, product-description, secondary-CTA, or explanatory-copy UI until real content or services justify it.",
+      "Don't use uncontrolled bounce, parallax, or continuous decorative motion."
+    ]
+  }
+}

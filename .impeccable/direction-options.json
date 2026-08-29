@@ -1,0 +1,99 @@
+{
+  "title": "Choose TAHANIVO's visual world",
+  "question": "Choose the identity world that should guide the logo and furniture storefront, or re-roll the set.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Cobalt Lacquer Pavilion",
+      "kicker": "THE DIRECTION",
+      "lineage": "color-field interiors and lacquered architectural screens",
+      "thesis": "Exclusive furniture is staged as sculpture inside a saturated cobalt pavilion.",
+      "palette": ["#102D55", "#1E5EFF", "#D7DBE0", "#F4F2ED"],
+      "materials": ["cobalt lacquer", "brushed aluminum", "smoked glass"],
+      "viewport": "A cobalt room fills the screen while one sculptural chair and a flat two-plane aperture mark hold the composition.",
+      "risk": "The color must frame the furniture without making the store feel like an art installation first.",
+      "raised": [
+        {
+          "from": "challenger-azulejo",
+          "raise": "The catalog grid now locks to measured modules so expressive color never weakens shopping clarity."
+        }
+      ],
+      "comp": ".impeccable/sketches/cobalt-lacquer-pavilion.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "The Material Library",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "architect material archives and cabinetmaker sample walls",
+      "thesis": "Luxury is proven through materials, joinery, and finish instead of being claimed.",
+      "palette": ["#D8D9D5", "#25292B", "#586157", "#B7A38A"],
+      "materials": ["end-grain wood", "stone samples", "graphite labels"],
+      "viewport": "A measured sample wall surrounds one hero product and an interlocking abstract joint mark.",
+      "risk": "This is the most naturally credible direction, but also the closest to familiar architecture branding.",
+      "comp": ".impeccable/sketches/material-library.png"
+    },
+    {
+      "id": "challenger-alcove",
+      "label": "The Living Alcove",
+      "verdict": "competitive",
+      "lineage": "asymmetric spatial composition and active negative space",
+      "thesis": "Each piece is given one quiet room, with balance and emptiness doing the selling.",
+      "palette": ["#E7E2D6", "#6E665B", "#234A83", "#2A2F28"],
+      "materials": ["pale plaster", "weathered timber", "dark bronze"],
+      "viewport": "A single chair sits low in an off-center plaster alcove beside a three-stroke balance mark.",
+      "case": "Product clarity is excellent, but the cultural coding is less truthful for a brand with no stated geographic origin.",
+      "risk": "It can imply a Japanese provenance that TAHANIVO does not claim.",
+      "comp": ".impeccable/sketches/living-alcove.png",
+      "hero": "https://impeccable.style/worlds/cards/growth-metamorphosis-branching-ikebana-ma-arrangement-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/growth-metamorphosis-branching-ikebana-ma-arrangement.webp"
+    },
+    {
+      "id": "challenger-portal",
+      "label": "Living Surface Portal",
+      "verdict": "competitive",
+      "lineage": "full-bleed digital material and responsive light",
+      "thesis": "The storefront behaves like a living material around sharply photographed furniture.",
+      "palette": ["#081426", "#3451E8", "#B9C7FF", "#FF6847"],
+      "materials": ["fine film grain", "light interference", "ink-dark glass"],
+      "viewport": "A minimal aperture logo and one chair float over a slowly shifting deep-blue material field.",
+      "case": "It strongly signals exclusivity, but the digital atmosphere can compete with furniture evaluation.",
+      "risk": "Performance and product legibility require strict restraint.",
+      "comp": ".impeccable/sketches/living-surface-portal.png",
+      "hero": "https://impeccable.style/worlds/cards/webgl-shader-portal-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/webgl-shader-portal.webp"
+    },
+    {
+      "id": "challenger-azulejo",
+      "label": "Cobalt Tile Gallery",
+      "verdict": "declined",
+      "lineage": "modular tile halls and framed narrative panels",
+      "thesis": "Collections unfold as cobalt rooms built from whole measured modules.",
+      "palette": ["#F3F0E7", "#123E82", "#D0A52A"],
+      "materials": ["tin glaze", "cobalt linework", "fine grout grid"],
+      "viewport": "A tiled blue-and-white gallery frames furniture inside a modular abstract tile mark.",
+      "case": "Fuses poorly because pattern dominates the furniture and suggests a regional story the brand does not hold.",
+      "kept": "Measured modular discipline.",
+      "risk": "The surface can become decorative before it becomes luxurious.",
+      "comp": ".impeccable/sketches/cobalt-tile-gallery.png",
+      "hero": "https://impeccable.style/worlds/cards/architecture-places-azulejo-station-hall-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Luxury Furniture Editorial",
+    "thesis": "The familiar premium furniture catalog, executed with restraint and excellent photography.",
+    "palette": ["#F1EDE5", "#24211E", "#9B8068"],
+    "materials": ["uncoated paper", "warm oak", "editorial photography"],
+    "viewport": "A spacious cream hero pairs a large room photograph with a refined abstract furniture-plane mark.",
+    "risk": "Beautiful and clear, but intentionally difficult to distinguish from established furniture brands.",
+    "comp": ".impeccable/sketches/luxury-editorial.png"
+  },
+  "steer": true
+}

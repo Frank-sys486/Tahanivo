@@ -1,0 +1,16 @@
+Use case: ui-mockup
+Asset type: TAHANIVO furniture website visual-direction sketch, desktop first viewport
+Primary request: Create one flat, matte, deliberately unfinished concept sketch for a premium household-furniture website. It should read as an art director's early spatial layout study, not a polished screenshot and not a moodboard.
+Brand strategy: TAHANIVO offers exclusive, top-tier common household furniture for quality- and luxury-minded customers. Customers can buy online or request a quote; there is no showroom.
+Canvas: identical flat landscape frame, 16:10 aspect ratio, straight-on view, no device mockup, no perspective, no browser chrome.
+Scene/backdrop: a pale plaster architectural alcove with active negative space and an asymmetric spatial composition. Weathered timber and dark bronze details. One sculptural chair placed low and off-center, with a calm premium editorial atmosphere.
+Interface/layout: minimal first-viewport website composition integrated over the scene. Strong open space; restrained navigation indicated only by greeked lines; a small primary action and secondary action may be suggested with unlabeled shapes. Do not show checkout details, prices, claims, or showroom language.
+Logo: an original minimal abstract pure-2D symbol made from exactly three balanced offset strokes arranged around an open center. No letters, no initials, no monogram, no cultural glyphs. Place the symbol consistently beside the wordmark.
+Text (verbatim): show only "TAHANIVO" and one real headline, "Space for what matters." Spell T-A-H-A-N-I-V-O exactly. Render the headline exactly. All other copy must be non-readable greeked horizontal bars with no letterforms.
+Style/medium: flat matte mixed-media concept sketch, architectural marker and soft graphite with restrained digital blocks; deliberately unfinished edges; sparse, refined, premium, implementation-friendly; no glossy 3D, no photorealism.
+Composition/framing: wide 16:10 desktop hero; asymmetry; chair low and off-center; headline occupies quiet negative space; disciplined alignment and generous margins.
+Lighting/mood: diffuse natural side light, calm, quiet, exclusive, tactile, architectural.
+Color palette: plaster ivory #E7E2D6, warm taupe #6E665B, restrained cobalt #234A83, deep charcoal-green #2A2F28. Use cobalt sparingly as the single accent.
+Materials/textures: chalky plaster, visible timber grain, aged dark bronze, matte woven chair upholstery, subtle paper grain.
+Constraints: one single flat landscape frame; one chair only; exact brand name and headline only; logo has exactly three offset strokes around an open center; logo remains abstract and non-letterform; active negative space; accessible contrast.
+Avoid: explicit Japanese characters or any cultural symbols, claims of provenance, fake awards, fake certifications, fake product claims, extra readable words, lorem ipsum, fake prices, showroom references, gradients, glossy rendering, 3D logo, letters hidden in the symbol, monograms, badges, crests, random icons, stock-template layout, collage panels, device frames, watermark, signatures.
