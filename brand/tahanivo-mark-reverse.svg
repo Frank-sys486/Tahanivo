@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">TAHANIVO abstract mark</title>
+  <desc id="desc">Three balanced geometric strokes forming an open center.</desc>
+  <g fill="#F4F2ED">
+    <path d="M27 16h42l-7 12H34z"/>
+    <path d="M27 16h42l-7 12H34z" transform="rotate(120 48 48)"/>
+    <path d="M27 16h42l-7 12H34z" transform="rotate(240 48 48)"/>
+  </g>
+</svg>
